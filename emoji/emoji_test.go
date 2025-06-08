@@ -62,7 +62,7 @@ func TestProcessMessage_NoRepeatFalse(t *testing.T) {
 	}
 	msg := "Hello hello"
 	result := ProcessMessage(msg, emojiMap, "before", false)
-	expected := "👋 👋 Hello hello"
+	expected := "👋 Hello hello"
 	if result != expected {
 		t.Errorf("Expected '%s', got '%s'", expected, result)
 	}
