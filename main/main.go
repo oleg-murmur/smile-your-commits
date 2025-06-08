@@ -18,7 +18,7 @@ func main() {
 	emojiMap := helpers.MustLoadEmojiMap(cfg.EmojiFile)
 
 	scanner := bufio.NewScanner(os.Stdin)
-	fmt.Println("Enter your message and I'll add the perfect emoji! 😊\nType 'exit' to quit.\n")
+	fmt.Println("Enter your message and I'll add the perfect emoji! 😊\nType 'exit' to quit.")
 
 	for {
 		fmt.Print("> ")
