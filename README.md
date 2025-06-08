@@ -1,4 +1,5 @@
 # 😄 smile-your-commits
+[![Run Tests](https://github.com/oleg-murmur/smile-your-commits/actions/workflows/test.yml/badge.svg)](https://github.com/oleg-murmur/smile-your-commits/actions/workflows/test.yml)
 
 > Add emotion to your commits with automatic emoji tagging based on keywords.
 
