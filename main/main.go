@@ -18,7 +18,7 @@ func main() {
 	emojiMap := helpers.MustLoadEmojiMap(cfg.EmojiFile)
 
 	scanner := bufio.NewScanner(os.Stdin)
-	fmt.Println("Write your message. I add good smile for this:) \nFor exit write 'exit'.")
+	fmt.Println("Enter your message and I'll add the perfect emoji! 😊\nType 'exit' to quit.\n")
 
 	for {
 		fmt.Print("> ")
@@ -33,6 +33,6 @@ func main() {
 		result := emoji.ProcessMessage(input, emojiMap, cfg.Placement, cfg.NoRepeat)
 		helpers.AppendToFile(cfg.OutputFile, result)
 		clipboard.WriteAll(result)
-		fmt.Println(result + "\n(copied to clipboard ✅)")
+		fmt.Println("Result:", result+"\nCopied to clipboard ✅\n")
 	}
 }
