@@ -21,7 +21,7 @@ Output:   🛠️ 🧪 fix[JIRA-123] add need api autotest
 
 You can download prebuilt binaries for Windows, Linux, and macOS from the following link:
 
-[Download binaries](https://yourdomain.com/downloads)
+[Download binaries](https://github.com/oleg-murmur/smile-your-commits/releases/tag/1.0.0)
 
 These binaries allow you to run the program without building it from source.
 
@@ -102,7 +102,7 @@ smile-your-commits.exe arg "fix bug in payment"
 }
 ```
 
-The program matches keywords anywhere in words. For example, `autotests` triggers both `autotest` and `test` emojis.
+The program matches keywords anywhere in words. For example, `autotests` triggers both `autotest` and `test` emojis. Simple to add new keyword for your tasks :)
 
 ---
 
