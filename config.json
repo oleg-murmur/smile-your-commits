@@ -1,0 +1,7 @@
+{
+  "emoji_file": "../emojis.json",
+  "placement": "after",
+  "norepeat": false,
+  "mode": "interactive",
+  "output_file": "message_history.txt"
+}

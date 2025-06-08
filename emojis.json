@@ -1,0 +1,14 @@
+{
+    "fix": "🔧",
+    "bug": "🐞",
+    "refactor": "♻️",
+    "refactoring": "♻️",
+    "feature": "✨",
+    "add": "➕",
+    "remove": "➖",
+    "test": "✅",
+    "docs": "📝",
+    "optimize": "⚡",
+    "api": "🌐",
+	"autotest": "🧪"
+}
